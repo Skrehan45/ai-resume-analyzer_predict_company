@@ -994,8 +994,7 @@ if detected_skills:
                     skill_html,
                     unsafe_allow_html=True
                 )
-
-        else:
+    else:
 
             st.warning(
                 "No predefined skills were detected."
